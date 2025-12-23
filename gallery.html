@@ -15,6 +15,7 @@
             <a href="index.html" class="nav-logo">Dexter Pratt</a>
             <ul class="nav-menu">
                 <li><a href="index.html#about">About</a></li>
+                <li><a href="cv.html">CV</a></li>
                 <li><a href="index.html#projects">Projects</a></li>
                 <li><a href="gallery.html">Art Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -37,35 +38,7 @@
         <section class="section">
             <div class="container">
                 <div class="gallery-grid">
-                    <!-- Placeholder gallery items - replace with your actual artwork -->
-                    <div class="gallery-item placeholder" data-title="Artwork 1" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <div class="gallery-item placeholder" data-title="Artwork 2" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <div class="gallery-item placeholder" data-title="Artwork 3" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <div class="gallery-item placeholder" data-title="Artwork 4" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <div class="gallery-item placeholder" data-title="Artwork 5" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <div class="gallery-item placeholder" data-title="Artwork 6" data-desc="Description of your artwork">
-                        <span>+</span>
-                    </div>
-                    <!--
-                    To add real artwork, use this format:
-                    <div class="gallery-item" data-title="Your Title" data-desc="Description">
-                        <img src="images/your-artwork.jpg" alt="Your artwork description">
-                        <div class="gallery-item-overlay">
-                            <div class="gallery-item-title">Your Title</div>
-                            <div class="gallery-item-desc">Description</div>
-                        </div>
-                    </div>
-                    -->
+                    <!-- Gallery items loaded dynamically from content/gallery/index.json -->
                 </div>
             </div>
         </section>
@@ -83,6 +56,7 @@
         </div>
     </footer>
 
+    <script src="js/marked.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

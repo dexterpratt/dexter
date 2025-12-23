@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ai-scientist",
+    "title": "Researcher, AI Scientist",
+    "org": "Ideker Lab, UCSD",
+    "dates": "2024 - Present",
+    "summary": "Developing AI systems for autonomous research and co-scientist support in molecular biology and drug discovery."
+  },
+  {
+    "id": "graduate-student",
+    "title": "Graduate Student",
+    "org": "Bioinformatics and Systems Biology, UCSD",
+    "dates": "2024 - Present",
+    "summary": "Pursuing a late-career doctorate as part of my shift to full-time research."
+  },
+  {
+    "id": "ndex",
+    "title": "Principal Investigator, NDEx Project",
+    "org": "Ideker Lab, UCSD",
+    "dates": "2013 - Present",
+    "summary": "Creator and PI for 'The Network Data Exchange: a Network Commons for Biologists.'"
+  },
+  {
+    "id": "ideker-director",
+    "title": "Director, Software Development",
+    "org": "Ideker Lab, UCSD",
+    "dates": "2018 - 2024",
+    "summary": "Led the software group developing Cytoscape and other open-source bioinformatics tools."
+  },
+  {
+    "id": "segterra",
+    "title": "CTO",
+    "org": "Segterra Inc.",
+    "dates": "2012",
+    "summary": "Designed the initial architecture for the InsideTracker product."
+  },
+  {
+    "id": "genstruct",
+    "title": "Vice President, Innovation and Knowledge",
+    "org": "Genstruct Inc. (Selventa)",
+    "dates": "2002 - 2011",
+    "summary": "Designed core causal reasoning algorithms and led pharmaceutical consulting engagements."
+  },
+  {
+    "id": "cyc-project",
+    "title": "Senior Scientist",
+    "org": "Cyc Project, MCC",
+    "dates": "1989 - 1995",
+    "summary": "Worked on commonsense reasoning systems based on symbolic AI and knowledge representation."
+  },
+  {
+    "id": "lisp-machines",
+    "title": "Director, User Interface Group",
+    "org": "Lisp Machine Inc. (LMI)",
+    "dates": "1981 - 1986",
+    "summary": "Managed production and software development for advanced AI research workstations."
+  }
+]

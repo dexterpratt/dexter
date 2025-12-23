@@ -10,14 +10,27 @@ Visit: [https://dexterpratt.github.io/dexter](https://dexterpratt.github.io/dext
 
 ```
 dexter/
-├── index.html          # Main landing page with bio, experience, and projects
-├── gallery.html        # Art gallery page
-├── blog.html           # Blog listing page
+├── index.html              # Main landing page with bio, experience, and projects
+├── cv.html                 # Full CV page (renders cv.md)
+├── gallery.html            # Art gallery page
+├── blog.html               # Blog listing and single post view
+├── cv.md                   # CV content in markdown
 ├── css/
-│   └── style.css       # Main stylesheet
+│   └── style.css           # Main stylesheet
 ├── js/
-│   └── main.js         # JavaScript for navigation and lightbox
-└── images/             # Place your images here
+│   ├── main.js             # JavaScript for all dynamic loading
+│   └── marked.min.js       # Markdown parser library
+├── content/
+│   ├── experiences/        # Detailed experience writeups
+│   │   ├── index.json      # Experience metadata
+│   │   └── *.md            # Individual experience files
+│   ├── blog/               # Blog posts
+│   │   ├── index.json      # Post metadata
+│   │   └── *.md            # Individual posts
+│   └── gallery/            # Gallery metadata
+│       └── index.json      # Artwork metadata
+└── images/
+    └── gallery/            # Art images
 ```
 
 ## Setting Up GitHub Pages
@@ -28,41 +41,55 @@ dexter/
 4. Choose the **main** branch and **/ (root)** folder
 5. Click **Save**
 
-Your site will be live at `https://yourusername.github.io/dexter` within a few minutes.
+Your site will be live at `https://dexterpratt.github.io/dexter` within a few minutes.
 
-## Customization
+## Adding Content
 
-### Adding Artwork to the Gallery
+### Adding a Blog Post
 
-1. Add your images to the `images/` folder
-2. Edit `gallery.html` and replace the placeholder items:
+1. Create a new markdown file in `content/blog/` (e.g., `2024-12-my-post.md`)
+2. Add an entry to `content/blog/index.json`:
 
-```html
-<div class="gallery-item" data-title="Your Title" data-desc="Description">
-    <img src="images/your-artwork.jpg" alt="Description">
-    <div class="gallery-item-overlay">
-        <div class="gallery-item-title">Your Title</div>
-        <div class="gallery-item-desc">Description</div>
-    </div>
-</div>
+```json
+{
+  "id": "2024-12-my-post",
+  "title": "My Post Title",
+  "date": "2024-12-15",
+  "excerpt": "A brief description shown in the blog list..."
+}
 ```
 
-### Adding Blog Posts
+Blog posts display with CC BY-NC-ND 4.0 license automatically.
 
-1. Create a `posts/` folder
-2. Create individual HTML files for each post
-3. Update `blog.html` with links to your new posts
+### Adding Artwork to Gallery
 
-### Updating Contact Information
+1. Add your image to `images/gallery/`
+2. Add an entry to `content/gallery/index.json`:
 
-Edit `index.html` and update the contact section with your actual links:
-- GitHub profile URL
-- LinkedIn profile URL
-- Email address
+```json
+{
+  "id": "artwork-name",
+  "title": "Artwork Title",
+  "image": "images/gallery/artwork-name.jpg",
+  "description": "Short description shown in lightbox",
+  "date": "2024"
+}
+```
+
+Gallery items display with CC BY-NC-ND 4.0 license in the lightbox.
+
+### Adding Experience Details
+
+1. Create a markdown file in `content/experiences/` matching the `id` in `index.json`
+2. The timeline on the homepage will show the summary; clicking opens the full markdown
+
+### Updating the CV
+
+Edit `cv.md` directly. The CV page renders this markdown automatically.
 
 ## Local Development
 
-Simply open `index.html` in your browser, or use a local server:
+**Important**: You need a local server because the site loads content via fetch requests.
 
 ```bash
 # Using Python
@@ -76,4 +103,5 @@ Then visit `http://localhost:8000`
 
 ## License
 
-All rights reserved.
+- **Blog posts and artwork**: CC BY-NC-ND 4.0 (displayed per item)
+- **Code and site structure**: All rights reserved

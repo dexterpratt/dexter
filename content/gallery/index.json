@@ -1,0 +1,9 @@
+[
+  {
+    "id": "sample-artwork-1",
+    "title": "Sample Artwork",
+    "image": "images/gallery/placeholder.jpg",
+    "description": "Replace this with your artwork. Add your images to images/gallery/ and update this file.",
+    "date": "2024"
+  }
+]

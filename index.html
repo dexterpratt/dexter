@@ -15,6 +15,7 @@
             <a href="index.html" class="nav-logo">Dexter Pratt</a>
             <ul class="nav-menu">
                 <li><a href="#about">About</a></li>
+                <li><a href="cv.html">CV</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="gallery.html">Art Gallery</a></li>
                 <li><a href="blog.html">Blog</a></li>
@@ -59,39 +60,9 @@
         <section id="experience" class="section section-alt">
             <div class="container">
                 <h2>Experience</h2>
-                <div class="timeline">
-                    <div class="timeline-item">
-                        <div class="timeline-date">2024 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Graduate Student</h3>
-                            <p class="timeline-org">Bioinformatics and Systems Biology, UCSD</p>
-                            <p>Pursuing a late-career doctorate as part of my shift to full-time research.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2024 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Researcher, AI Scientist</h3>
-                            <p class="timeline-org">Ideker Lab, UCSD</p>
-                            <p>Initiated AI scientist work at the Ideker lab. Developing AI systems for autonomous research and co-scientist support in molecular biology and drug discovery. Mentoring students on projects like knowledge graph extraction from papers.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2013 - Present</div>
-                        <div class="timeline-content">
-                            <h3>Principal Investigator, NDEx Project</h3>
-                            <p class="timeline-org">Ideker Lab, UCSD</p>
-                            <p>Creator and PI for "The Network Data Exchange: a Network Commons for Biologists." NDEx serves as the backend for the Cytoscape ecosystem of tools.</p>
-                        </div>
-                    </div>
-                    <div class="timeline-item">
-                        <div class="timeline-date">2018 - 2024</div>
-                        <div class="timeline-content">
-                            <h3>Director, Software Development</h3>
-                            <p class="timeline-org">Ideker Lab, UCSD</p>
-                            <p>Led the software group developing and maintaining widely used open-source resources, including Cytoscape. Served as co-investigator on multiple grants.</p>
-                        </div>
-                    </div>
+                <p class="section-subtitle">Click any item to read more</p>
+                <div class="timeline" id="timeline">
+                    <!-- Timeline items loaded dynamically from content/experiences/index.json -->
                 </div>
             </div>
         </section>
@@ -132,7 +103,7 @@
                 <div class="contact-content">
                     <p>Interested in collaboration, research opportunities, or just want to connect?</p>
                     <div class="contact-links">
-                        <a href="https://github.com/dexter" target="_blank" class="contact-link">GitHub</a>
+                        <a href="https://github.com/dexterpratt" target="_blank" class="contact-link">GitHub</a>
                         <a href="https://www.linkedin.com/in/dexterpratt/" target="_blank" class="contact-link">LinkedIn</a>
                         <a href="mailto:dexter@example.com" class="contact-link">Email</a>
                     </div>
@@ -141,12 +112,23 @@
         </section>
     </main>
 
+    <!-- Experience Modal -->
+    <div class="modal" id="experience-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close">&times;</button>
+            <div class="modal-body" id="experience-modal-body">
+                <!-- Content loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Dexter Pratt. All rights reserved.</p>
         </div>
     </footer>
 
+    <script src="js/marked.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
