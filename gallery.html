@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery | Dexter Pratt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Dexter Pratt</a>
+            <ul class="nav-menu">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="gallery.html">Art Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Art Gallery</h1>
+        <p>A collection of my artwork exploring the intersection of science, technology, and creativity.</p>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Placeholder gallery items - replace with your actual artwork -->
+                    <div class="gallery-item placeholder" data-title="Artwork 1" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <div class="gallery-item placeholder" data-title="Artwork 2" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <div class="gallery-item placeholder" data-title="Artwork 3" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <div class="gallery-item placeholder" data-title="Artwork 4" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <div class="gallery-item placeholder" data-title="Artwork 5" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <div class="gallery-item placeholder" data-title="Artwork 6" data-desc="Description of your artwork">
+                        <span>+</span>
+                    </div>
+                    <!--
+                    To add real artwork, use this format:
+                    <div class="gallery-item" data-title="Your Title" data-desc="Description">
+                        <img src="images/your-artwork.jpg" alt="Your artwork description">
+                        <div class="gallery-item-overlay">
+                            <div class="gallery-item-title">Your Title</div>
+                            <div class="gallery-item-desc">Description</div>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Lightbox for viewing full images -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Close">&times;</button>
+        <img src="" alt="">
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dexter Pratt. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
