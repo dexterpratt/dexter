@@ -1,9 +1,58 @@
 [
   {
-    "id": "sample-artwork-1",
-    "title": "Sample Artwork",
-    "image": "images/gallery/placeholder.jpg",
-    "description": "Replace this with your artwork. Add your images to images/gallery/ and update this file.",
-    "date": "2024"
+    "id": "img-0020",
+    "title": "Mahi-Mahi",
+    "image": "images/gallery/IMG_0020.jpeg",
+    "description": "A mahi-mahi tuna inspired by Hawaiian shark designs that I saw on vacation on Oahu",
+    "date": "2019",
+    "tags": [
+      "digital"
+    ]
+  },
+  {
+    "id": "img-0182",
+    "title": "Stichy Fish",
+    "image": "images/gallery/IMG_0182.jpeg",
+    "description": "A large fish that was part of our \"Spooky Lagoon\" Halloween display on our garage, under a bank of black lights. Fluorescent paint on cardboard.",
+    "date": "2014",
+    "tags": [
+      "Halloween",
+      "Fluorescent"
+    ]
+  },
+  {
+    "id": "img-1584",
+    "title": "White Rhinos in Orange",
+    "image": "images/gallery/IMG_1584.jpeg",
+    "description": "Based on my photo of 2 rhinos at the San Diego Zoo Safari Park. Combined vector and paint in Affinity Designer.",
+    "date": "2020",
+    "tags": [
+      "Animals",
+      "digital"
+    ]
+  },
+  {
+    "id": "img-3185",
+    "title": "Kanga and Roux",
+    "image": "images/gallery/IMG_3185.jpeg",
+    "description": "Part of my \"Punny Lane\" series, a street where every business has a bad pun for a name.",
+    "date": "2013",
+    "tags": [
+      "digital",
+      "Cartoon",
+      "Punny Lane"
+    ]
+  },
+  {
+    "id": "the-kraken-sub-explores",
+    "title": "Kraken Sub Explores the Sunken City",
+    "image": "images/gallery/The Kraken Sub Explores.jpeg",
+    "description": "Part of a series of biomimetic submarines.",
+    "date": "2011",
+    "tags": [
+      "Fluorescent",
+      "Acrylic",
+      "Cartoon"
+    ]
   }
 ]

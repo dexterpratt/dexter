@@ -50,19 +50,22 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Smooth scroll for anchor links
+    // Smooth scroll for anchor links (with delay to handle dynamic content)
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             const href = this.getAttribute('href');
             if (href !== '#') {
                 e.preventDefault();
-                const target = document.querySelector(href);
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
+                // Small delay to ensure dynamic content has loaded
+                setTimeout(() => {
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }, 100);
             }
         });
     });
@@ -174,9 +177,11 @@ async function initGallery() {
         return;
     }
 
+    const escapeAttr = str => str.replace(/"/g, '&quot;');
+
     galleryGrid.innerHTML = items.map(item => `
-        <div class="gallery-item" data-id="${item.id}" data-title="${item.title}" data-desc="${item.description}">
-            <img src="${item.image}" alt="${item.title}" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML='<span>+</span>';">
+        <div class="gallery-item" data-id="${escapeAttr(item.id)}" data-title="${escapeAttr(item.title)}" data-desc="${escapeAttr(item.description)}">
+            <img src="${item.image}" alt="${escapeAttr(item.title)}" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML='<span>+</span>';">
             <div class="gallery-item-overlay">
                 <div class="gallery-item-title">${item.title}</div>
                 <div class="gallery-item-desc">${item.description}</div>
