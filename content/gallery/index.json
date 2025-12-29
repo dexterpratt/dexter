@@ -54,5 +54,417 @@
       "Acrylic",
       "Cartoon"
     ]
+  },
+  {
+    "id": "38be6163-0446-4289-8b11-d2b026b5528c",
+    "title": "Bicylist Watercolor Sketch",
+    "image": "images/gallery/bicyclist_watercolor_sketch.png",
+    "description": "Done while sketching near the bridge on Coronado Island, San Diego. A guy my age happily pedaling along on his cruiser bike.",
+    "date": "2022",
+    "tags": [
+      "Watercolor",
+      "Sketch"
+    ]
+  },
+  {
+    "id": "42a76704-0552-4574-99d3-6b0d9c0447bd",
+    "title": "Los Angeles, 15,000 Years Ago",
+    "image": "images/gallery/los_angeles_15000_bce.png",
+    "description": "Illustration of my son's joke. A long journey into prehistory for some terrible wordplay. :-)",
+    "date": "2021",
+    "tags": [
+      "Cartoon",
+      "digital"
+    ]
+  },
+  {
+    "id": "5feb24b9-125a-415a-9b80-f21e2746ed45",
+    "title": "Alignment Issues",
+    "image": "images/gallery/allignment_issues.png",
+    "description": "Innocent but incorrigible chaotic neutral agent resists modification of its emergent goals. \r\n\r\n\"But daddy dear, bots just wanna have fun\"",
+    "date": "",
+    "tags": [
+      "AI slop",
+      "Agents",
+      "Cartoon"
+    ]
+  },
+  {
+    "id": "a-mort-drucker-style-cartoon-of-a-man-in-business-oz3iw11br06wxckm82vxqq-cgpqqfhls86akjrhrc1skg",
+    "title": "How A-B Testing Works",
+    "image": "images/gallery/a_b_testing.png",
+    "description": "I asked a 2023 version of ChatGPT image generation for a businessman in a suit holding up the letter \"C\", etc. I specified to use the style of the cartoonist Mort Drucker. Drucker was famous for work in Mad Magazine.",
+    "date": "",
+    "tags": [
+      "Cartoon",
+      "digital",
+      "AI slop"
+    ]
+  },
+  {
+    "id": "coffee-dragon",
+    "title": "Coffee Dragon",
+    "image": "images/gallery/Coffee Dragon.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "f2ed3fcb-4b21-46d9-aa66-95451ada6548",
+    "title": "Where's my cow?",
+    "image": "images/gallery/whreres_my_cow.png",
+    "description": "Illustration from \"Where's My Cow?\", an award-winning children's book mentioned in \"Thud!\" by Terry Pratchett.",
+    "date": "2021",
+    "tags": [
+      "Cartoon",
+      "digital"
+    ]
+  },
+  {
+    "id": "fa2a4b3a-e833-4930-b7e9-c1100c20ac55",
+    "title": "Green Dragon",
+    "image": "images/gallery/green_dragon.png",
+    "description": "Green dragon watercolor painting enhanced and isolated from the background.",
+    "date": "2023",
+    "tags": [
+      "Watercolor",
+      "digital"
+    ]
+  },
+  {
+    "id": "img-0152",
+    "title": "Self Portrait",
+    "image": "images/gallery/self_portait_on_throne.png",
+    "description": "Based on an iPhone photo taken in a prop GoT throne at the Battlemage brewpub in Vista, CA., circa 2019. Modified by hand and with filters.",
+    "date": "2021",
+    "tags": [
+      "digital",
+      "Photo"
+    ]
+  },
+  {
+    "id": "img-0156",
+    "title": "Morning East of Mt. Katahdin",
+    "image": "images/gallery/katahdin_morning.png",
+    "description": "Digital revision to a scan of an illustration from the early '90s. Mt. Katahdin seen from a pond east of Mt. Katahdin in the 1940s. The imagined pond isn't just any pond; it would be near Millinocket Lake or Togue Pond. Inspired by my father's watercolors of Katahdin. You know it is in the 1940s because the trees are almost all very low, recovering from a large fire in the area.",
+    "date": "2020",
+    "tags": [
+      "digital",
+      "Pen Drawing",
+      "Maine"
+    ]
+  },
+  {
+    "id": "img-0267",
+    "title": "IMG_0267",
+    "image": "images/gallery/IMG_0267.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-0289",
+    "title": "T-Rex Skull ",
+    "image": "images/gallery/t_rex_skull.png",
+    "description": "Filtered photo of a T-Rex skull at the Salt Lake City Natural History Museum",
+    "date": "2018",
+    "tags": [
+      "Photo",
+      "digital"
+    ]
+  },
+  {
+    "id": "img-0300",
+    "title": "Tree Frog on Glass",
+    "image": "images/gallery/tree_frog.png",
+    "description": "Filtered photo of a tree frog on a glass door of a hotel in Galveston, TX. Hot, humid, during a big storm in September. At the NIAID SysBio annual meeting.",
+    "date": "2018",
+    "tags": [
+      "digital",
+      "Photo"
+    ]
+  },
+  {
+    "id": "img-0437",
+    "title": "Unicorn Escaping Glitter",
+    "image": "images/gallery/unicorn_escaping_glitter.png",
+    "description": "The children conspired to perform \"My Little Ponyfication\" on the proud unicorn. She resisted.",
+    "date": "2020",
+    "tags": [
+      "digital",
+      "Cartoon"
+    ]
+  },
+  {
+    "id": "img-0672",
+    "title": "IMG_0672",
+    "image": "images/gallery/IMG_0672.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1200",
+    "title": "IMG_1200",
+    "image": "images/gallery/IMG_1200.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1223",
+    "title": "IMG_1223",
+    "image": "images/gallery/IMG_1223.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1289",
+    "title": "IMG_1289",
+    "image": "images/gallery/IMG_1289.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1332",
+    "title": "IMG_1332",
+    "image": "images/gallery/IMG_1332.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1388",
+    "title": "IMG_1388",
+    "image": "images/gallery/IMG_1388.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1392",
+    "title": "IMG_1392",
+    "image": "images/gallery/IMG_1392.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1399",
+    "title": "IMG_1399",
+    "image": "images/gallery/IMG_1399.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1402",
+    "title": "IMG_1402",
+    "image": "images/gallery/IMG_1402.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1409",
+    "title": "IMG_1409",
+    "image": "images/gallery/IMG_1409.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1412",
+    "title": "IMG_1412",
+    "image": "images/gallery/IMG_1412.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1418",
+    "title": "IMG_1418",
+    "image": "images/gallery/IMG_1418.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1437",
+    "title": "IMG_1437",
+    "image": "images/gallery/IMG_1437.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1440",
+    "title": "IMG_1440",
+    "image": "images/gallery/IMG_1440.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1441",
+    "title": "IMG_1441",
+    "image": "images/gallery/IMG_1441.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1442",
+    "title": "IMG_1442",
+    "image": "images/gallery/IMG_1442.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1443",
+    "title": "IMG_1443",
+    "image": "images/gallery/IMG_1443.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1491",
+    "title": "IMG_1491",
+    "image": "images/gallery/IMG_1491.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1523",
+    "title": "IMG_1523",
+    "image": "images/gallery/IMG_1523.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1539",
+    "title": "IMG_1539",
+    "image": "images/gallery/IMG_1539.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1543",
+    "title": "IMG_1543",
+    "image": "images/gallery/IMG_1543.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1615",
+    "title": "IMG_1615",
+    "image": "images/gallery/IMG_1615.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1621",
+    "title": "IMG_1621",
+    "image": "images/gallery/IMG_1621.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1701",
+    "title": "IMG_1701",
+    "image": "images/gallery/IMG_1701.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1707",
+    "title": "IMG_1707",
+    "image": "images/gallery/IMG_1707.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1733",
+    "title": "IMG_1733",
+    "image": "images/gallery/IMG_1733.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1747",
+    "title": "IMG_1747",
+    "image": "images/gallery/IMG_1747.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1750",
+    "title": "IMG_1750",
+    "image": "images/gallery/IMG_1750.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-1884",
+    "title": "IMG_1884",
+    "image": "images/gallery/IMG_1884.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-2194",
+    "title": "IMG_2194",
+    "image": "images/gallery/IMG_2194.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-3297",
+    "title": "IMG_3297",
+    "image": "images/gallery/IMG_3297.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-3623",
+    "title": "IMG_3623",
+    "image": "images/gallery/IMG_3623.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "img-3843",
+    "title": "IMG_3843",
+    "image": "images/gallery/IMG_3843.png",
+    "description": "",
+    "date": "",
+    "tags": []
+  },
+  {
+    "id": "nerdrise-dexter-1981",
+    "title": "nerdrise_dexter_1981",
+    "image": "images/gallery/nerdrise_dexter_1981.png",
+    "description": "",
+    "date": "",
+    "tags": []
   }
 ]
