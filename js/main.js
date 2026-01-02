@@ -179,8 +179,8 @@ async function initGallery() {
 
     const escapeAttr = str => str.replace(/"/g, '&quot;');
 
-    galleryGrid.innerHTML = items.map(item => `
-        <div class="gallery-item" data-id="${escapeAttr(item.id)}" data-title="${escapeAttr(item.title)}" data-desc="${escapeAttr(item.description)}">
+    galleryGrid.innerHTML = items.map((item, index) => `
+        <div class="gallery-item" data-index="${index}" data-id="${escapeAttr(item.id)}" data-title="${escapeAttr(item.title)}" data-desc="${escapeAttr(item.description)}">
             <img src="${item.image}" alt="${escapeAttr(item.title)}" onerror="this.parentElement.classList.add('placeholder'); this.style.display='none'; this.parentElement.innerHTML='<span>+</span>';">
             <div class="gallery-item-overlay">
                 <div class="gallery-item-title">${item.title}</div>
@@ -189,12 +189,15 @@ async function initGallery() {
         </div>
     `).join('');
 
-    // Enhanced lightbox with license
+    // Enhanced lightbox with license and navigation
     const lightbox = document.getElementById('lightbox');
     if (!lightbox) return;
 
     const lightboxImg = lightbox.querySelector('img');
     const lightboxClose = lightbox.querySelector('.lightbox-close');
+    const lightboxPrev = lightbox.querySelector('.lightbox-prev');
+    const lightboxNext = lightbox.querySelector('.lightbox-next');
+    let currentIndex = 0;
 
     // Add caption container if not exists
     let caption = lightbox.querySelector('.lightbox-caption');
@@ -204,22 +207,46 @@ async function initGallery() {
         lightbox.appendChild(caption);
     }
 
+    function showImage(index) {
+        // Wrap around
+        if (index < 0) index = items.length - 1;
+        if (index >= items.length) index = 0;
+        currentIndex = index;
+
+        const item = items[index];
+        lightboxImg.src = item.image;
+        lightboxImg.alt = item.title;
+        caption.innerHTML = `
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+            ${LICENSE_HTML}
+        `;
+    }
+
     galleryGrid.querySelectorAll('.gallery-item:not(.placeholder)').forEach(item => {
         item.addEventListener('click', function() {
             const img = this.querySelector('img');
             if (img && img.style.display !== 'none') {
-                lightboxImg.src = img.src;
-                lightboxImg.alt = this.dataset.title;
-                caption.innerHTML = `
-                    <h3>${this.dataset.title}</h3>
-                    <p>${this.dataset.desc}</p>
-                    ${LICENSE_HTML}
-                `;
+                showImage(parseInt(this.dataset.index));
                 lightbox.classList.add('active');
                 document.body.style.overflow = 'hidden';
             }
         });
     });
+
+    // Navigation buttons
+    if (lightboxPrev) {
+        lightboxPrev.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showImage(currentIndex - 1);
+        });
+    }
+    if (lightboxNext) {
+        lightboxNext.addEventListener('click', (e) => {
+            e.stopPropagation();
+            showImage(currentIndex + 1);
+        });
+    }
 
     if (lightboxClose) {
         lightboxClose.addEventListener('click', closeLightbox);
@@ -234,7 +261,10 @@ async function initGallery() {
     }
 
     document.addEventListener('keydown', (e) => {
+        if (!lightbox.classList.contains('active')) return;
         if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowLeft') showImage(currentIndex - 1);
+        if (e.key === 'ArrowRight') showImage(currentIndex + 1);
     });
 }
 
