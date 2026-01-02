@@ -197,274 +197,318 @@
   },
   {
     "id": "img-0672",
-    "title": "IMG_0672",
+    "title": "Package Tree",
     "image": "images/gallery/IMG_0672.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Our Christmas card that year. ",
+    "date": "2020",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1200",
-    "title": "IMG_1200",
+    "title": "Halloween Bulbasaur",
     "image": "images/gallery/IMG_1200.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "A manic take on Pokemon for Halloween",
+    "date": "2021",
+    "tags": [
+      "digital",
+      "Cartoon"
+    ]
   },
   {
     "id": "img-1223",
-    "title": "IMG_1223",
+    "title": "Octopus Quilt",
     "image": "images/gallery/IMG_1223.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "I was experimenting with Procreate and this was one of the results that I liked",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1289",
-    "title": "IMG_1289",
+    "title": "Bird, Turtle, Caiman",
     "image": "images/gallery/IMG_1289.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1332",
-    "title": "IMG_1332",
+    "title": "Post-Apocabike",
     "image": "images/gallery/IMG_1332.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "My friend sometimes does Burning Man installations. That year, I made him a fluorescent art bike with tailfins. The distressed umbrella held up a ring of blacklight LEDs that lit the bike, making it fluoresce.",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cartoon"
+    ]
   },
   {
     "id": "img-1388",
-    "title": "IMG_1388",
+    "title": "Cards Against Biology: TP53",
     "image": "images/gallery/IMG_1388.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1392",
-    "title": "IMG_1392",
+    "title": "Green Bird",
     "image": "images/gallery/IMG_1392.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Another experiment while learning Procreate.",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1399",
-    "title": "IMG_1399",
+    "title": "Cards Against Biology: EGFR",
     "image": "images/gallery/IMG_1399.png",
-    "description": "",
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
     "date": "",
-    "tags": []
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1402",
-    "title": "IMG_1402",
+    "title": "Cards Against Biology: RAD51",
     "image": "images/gallery/IMG_1402.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!\r\n\r\nThe Apocabike rides again!",
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1409",
-    "title": "IMG_1409",
+    "title": "Cards Against Biology: RB1",
     "image": "images/gallery/IMG_1409.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1412",
-    "title": "IMG_1412",
+    "title": "Cards Against Biology: Hypoxia",
     "image": "images/gallery/IMG_1412.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1418",
-    "title": "IMG_1418",
+    "title": "Cards Against Biology: Peroxisome",
     "image": "images/gallery/IMG_1418.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1437",
-    "title": "IMG_1437",
+    "title": "Cards Against Biology: SMAD4",
     "image": "images/gallery/IMG_1437.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1440",
-    "title": "IMG_1440",
+    "title": "Cards Against Biology: SSH",
     "image": "images/gallery/IMG_1440.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1441",
-    "title": "IMG_1441",
+    "title": "Cards Against Biology: Necrosis",
     "image": "images/gallery/IMG_1441.png",
-    "description": "",
-    "date": "",
-    "tags": []
-  },
-  {
-    "id": "img-1442",
-    "title": "IMG_1442",
-    "image": "images/gallery/IMG_1442.png",
-    "description": "",
-    "date": "",
-    "tags": []
-  },
-  {
-    "id": "img-1443",
-    "title": "IMG_1443",
-    "image": "images/gallery/IMG_1443.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Cards Against Biology is a fast-paced game of mutation, proliferation, and DNA damage repair. Fun for the whole family!",
+    "date": "2022",
+    "tags": [
+      "digital",
+      "Cards Against Biology"
+    ]
   },
   {
     "id": "img-1491",
-    "title": "IMG_1491",
+    "title": "Maple Sugaring",
     "image": "images/gallery/IMG_1491.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Based on my mom's stories of the small string of maple trees she gathered sap from in the woods behind their house.",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1523",
-    "title": "IMG_1523",
+    "title": "Gull and Walrus",
     "image": "images/gallery/IMG_1523.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Our Christmas card that year",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1539",
-    "title": "IMG_1539",
+    "title": "Blue Jay",
     "image": "images/gallery/IMG_1539.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Based on the SVG that drove the Cricut machine to make the paper version.",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1543",
-    "title": "IMG_1543",
+    "title": "Blue Jay Card",
     "image": "images/gallery/IMG_1543.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Paper cut on a Cricut machine.",
+    "date": "2021",
+    "tags": [
+      "Cut Paper"
+    ]
   },
   {
     "id": "img-1615",
-    "title": "IMG_1615",
+    "title": "Blue Oxen",
     "image": "images/gallery/IMG_1615.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Vector art for the Cards Against Biology series.",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1621",
-    "title": "IMG_1621",
+    "title": "A is for Alliterative Alligators",
     "image": "images/gallery/IMG_1621.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1701",
-    "title": "IMG_1701",
+    "title": "Network Cow",
     "image": "images/gallery/IMG_1701.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1707",
-    "title": "IMG_1707",
+    "title": "Not an Emotional Support Chicken",
     "image": "images/gallery/IMG_1707.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1733",
-    "title": "IMG_1733",
+    "title": "Waiting for my Ride",
     "image": "images/gallery/IMG_1733.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Sunny afternoon at UCSD",
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1747",
-    "title": "IMG_1747",
+    "title": "SweeTarts Bike",
     "image": "images/gallery/IMG_1747.png",
-    "description": "",
-    "date": "",
-    "tags": []
-  },
-  {
-    "id": "img-1750",
-    "title": "IMG_1750",
-    "image": "images/gallery/IMG_1750.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "We met this guy in Tampa and talked to him about his beautifully customized SweetTarts-themed bike. I asked if I could take his picture to make this poster.",
+    "date": "2022",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-1884",
-    "title": "IMG_1884",
+    "title": "Florida Window",
     "image": "images/gallery/IMG_1884.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Air conditioning inside, hot and humid outside.",
+    "date": "2018",
+    "tags": [
+      "Photo"
+    ]
   },
   {
     "id": "img-2194",
-    "title": "IMG_2194",
+    "title": "Skeptic Rex",
     "image": "images/gallery/IMG_2194.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "1997",
+    "tags": [
+      "Pen Drawing"
+    ]
   },
   {
     "id": "img-3297",
-    "title": "IMG_3297",
+    "title": "Mr. Hyde",
     "image": "images/gallery/IMG_3297.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Later reused in Cards Against Biology",
+    "date": "2021",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-3623",
-    "title": "IMG_3623",
+    "title": "Dandelions",
     "image": "images/gallery/IMG_3623.png",
     "description": "",
-    "date": "",
-    "tags": []
+    "date": "2018",
+    "tags": [
+      "digital"
+    ]
   },
   {
     "id": "img-3843",
-    "title": "IMG_3843",
+    "title": "Halloween Treats",
     "image": "images/gallery/IMG_3843.png",
-    "description": "",
-    "date": "",
-    "tags": []
+    "description": "Each ball contains a flashing LED gummy ring and some candy. They careen down a ball run from our balcony to trick-or-treaters",
+    "date": "2023",
+    "tags": [
+      "Photo"
+    ]
   },
   {
     "id": "nerdrise-dexter-1981",
-    "title": "nerdrise_dexter_1981",
+    "title": "Nerdrise",
     "image": "images/gallery/nerdrise_dexter_1981.png",
-    "description": "",
-    "date": "",
+    "description": "I combined the iconic \"Earthrise\" poster with the \"Are you a Nerd?\" poster. ",
+    "date": "1981",
     "tags": []
   }
 ]
